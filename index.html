@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link href="../myblog/img/header.jpg" rel="icon" type="image/x-ico">
+    <!-- 当屏幕为pc的时候调用下面的css -->
+    <link rel="stylesheet" href="../myblog/css/commen.css">
+    <link rel="stylesheet" href="../myblog/css/index.css">
+    <script src="../myblog/vue/vue.js"></script>
+    <!-- 轮播 -->
+    <link rel="stylesheet" href="../lunbo/swiper-7.4.1/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <img src="../myblog/img/shu.png" alt="">
+    <div class="beijing">
+        <img src="../myblog/img/shubiao.png" alt="" style="width: 1000px;">
+    </div>
+    <!-- 导航栏start -->
+    <div class="header">
+        <div id="nav">
+            <div class="logo">
+                <a href="../myblog/index.html"> <img src="../myblog/img/logo.png" alt=""></a>
+            </div>
+            <div class="show">
+
+            </div>
+
+            <ul>
+                <li>
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="blog.html">博客</a>
+                </li>
+                <li>
+                    <a href="#"> music</a>
+                </li>
+                <li>
+                    <a href="#">照片墙</a>
+                </li>
+                <li>
+                    <a href="#">留言</a>
+                </li>
+                <li>
+                    <a href="#">关于我</a>
+                </li>
+                <li>
+                    <a href="RegisterTes.html">注册</a>
+                </li>
+            </ul>
+            <div class="hd">
+                <img src="../myblog/img/header.jpg" alt="">
+                <span>你好，心悦</span>
+                <!-- <button id="btnhide">
+                    菜单栏
+                </button> -->
+            </div>
+        </div>
+    </div>
+    <!-- 导航栏end -->
+
+    <!-- 轮播start -->
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../myblog/img/103.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../myblog/img/20.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../myblog/img/200.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../myblog/img/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../myblog/img/21.jpg" alt=""></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <!-- 如果需要滚动条 -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+    <!-- 轮播end -->
+    <!-- content start -->
+
+
+    <div class="video margin">
+        <!-- 最新推荐 -->
+        <div class="recommend margin">
+            <span>最新推荐</span>
+        </div>
+        <!-- <ul>
+            <li>
+                <video controls="controls" loop="loop" autoplay="autoplay">
+                        <source src="move/me2.mp4" type="video/mp4" />
+                        </video>
+            </li>
+            <li>
+                <video controls="controls" loop="loop" autoplay="autoplay">
+                        <source src="move/me3.mp4" type="video/mp4" />
+                        </video>
+            </li>
+            <li>
+                <video controls="controls" loop="loop" autoplay="autoplay">
+                        <source src="move/me4.mp4" type="video/mp4" />
+                        </video>
+            </li>
+            <li>
+                <video controls="controls" loop="loop" autoplay="autoplay">
+                        <source src="move/me.mp4" type="video/mp4" />
+                        </video>
+            </li>
+        </ul> -->
+    </div>
+    <div class="margin">
+        <div class="blog margin">
+
+            <!-- 左部分 -->
+            <div class="left">
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="lf">
+                            <h2>{{title}}</h2>
+                            <a href="#" class="sp"> 戴上金箍，没法爱你；放下金箍，没法保护你。我知道上天不会给我第二次机会，曾经我们说好的永远，原来也仅仅只有，十二画，而已。“大圣，此去欲何?”“踏南天，碎凌霄。”“若一去不回……”“便一去不回” 其实很多时候，我们都是有机会的，最后真正放弃的，是我们自己。......</a>
+                            <div class="bt-like">
+                                <ul>
+                                    <li>
+                                        <img src="../myblog/img/6.jpg" alt="">
+                                    </li>
+                                    <li>
+                                        <a href="#">xinyue</a>
+                                    </li>
+                                    <li>
+                                        <a>2021/12/26</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">520</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">250</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="rt">
+                            <a href=""><img src="../myblog/img/20.jpg" alt=""></a>
+                            <div class="fl">
+                                <div class="like">
+                                    <a href="#">点赞</a>
+                                </div>
+                                <div class="like">
+                                    <a href="#">收藏</a>
+                                </div>
+                                <div class="like last">
+                                    <a href="#">留言</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="lf">
+                            <h2>大圣，此去为何！</h2>
+                            <a href="#" class="sp"> 戴上金箍，没法爱你；放下金箍，没法保护你。我知道上天不会给我第二次机会，曾经我们说好的永远，原来也仅仅只有，十二画，而已。“大圣，此去欲何?”“踏南天，碎凌霄。”“若一去不回……”“便一去不回” 其实很多时候，我们都是有机会的，最后真正放弃的，是我们自己。......</a>
+                            <div class="bt-like">
+                                <ul>
+                                    <li>
+                                        <img src="../myblog/img/6.jpg" alt="">
+                                    </li>
+                                    <li>
+                                        <a href="#">xinyue</a>
+                                    </li>
+                                    <li>
+                                        <a>2021/12/26</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">520</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">250</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="rt">
+                            <a href=""><img src="../myblog/img/20.jpg" alt=""></a>
+                            <div class="fl">
+                                <div class="like">
+                                    <a href="#">点赞</a>
+                                </div>
+                                <div class="like">
+                                    <a href="#">收藏</a>
+                                </div>
+                                <div class="like last">
+                                    <a href="#">留言</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="lf">
+                            <h2>大圣，此去为何！</h2>
+                            <a href="#" class="sp"> 戴上金箍，没法爱你；放下金箍，没法保护你。我知道上天不会给我第二次机会，曾经我们说好的永远，原来也仅仅只有，十二画，而已。“大圣，此去欲何?”“踏南天，碎凌霄。”“若一去不回……”“便一去不回” 其实很多时候，我们都是有机会的，最后真正放弃的，是我们自己。......</a>
+                            <div class="bt-like">
+                                <ul>
+                                    <li>
+                                        <img src="../myblog/img/6.jpg" alt="">
+                                    </li>
+                                    <li>
+                                        <a href="#">xinyue</a>
+                                    </li>
+                                    <li>
+                                        <a>2021/12/26</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">520</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">250</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="rt">
+                            <a href=""><img src="../myblog/img/20.jpg" alt=""></a>
+                            <div class="fl">
+                                <div class="like">
+                                    <a href="#">点赞</a>
+                                </div>
+                                <div class="like">
+                                    <a href="#">收藏</a>
+                                </div>
+                                <div class="like last">
+                                    <a href="#">留言</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="lf">
+                            <h2>大圣，此去为何！</h2>
+                            <a href="#" class="sp"> 戴上金箍，没法爱你；放下金箍，没法保护你。我知道上天不会给我第二次机会，曾经我们说好的永远，原来也仅仅只有，十二画，而已。“大圣，此去欲何?”“踏南天，碎凌霄。”“若一去不回……”“便一去不回” 其实很多时候，我们都是有机会的，最后真正放弃的，是我们自己。......</a>
+                            <div class="bt-like">
+                                <ul>
+                                    <li>
+                                        <img src="../myblog/img/6.jpg" alt="">
+                                    </li>
+                                    <li>
+                                        <a href="#">xinyue</a>
+                                    </li>
+                                    <li>
+                                        <a>2021/12/26</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">520</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">250</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="rt">
+                            <a href=""><img src="../myblog/img/20.jpg" alt=""></a>
+                            <div class="fl">
+                                <div class="like">
+                                    <a href="#">点赞</a>
+                                </div>
+                                <div class="like">
+                                    <a href="#">收藏</a>
+                                </div>
+                                <div class="like last">
+                                    <a href="#">留言</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="lf">
+                            <h2>大圣，此去为何！</h2>
+                            <a href="#" class="sp"> 戴上金箍，没法爱你；放下金箍，没法保护你。我知道上天不会给我第二次机会，曾经我们说好的永远，原来也仅仅只有，十二画，而已。“大圣，此去欲何?”“踏南天，碎凌霄。”“若一去不回……”“便一去不回” 其实很多时候，我们都是有机会的，最后真正放弃的，是我们自己。......</a>
+                            <div class="bt-like">
+                                <ul>
+                                    <li>
+                                        <img src="../myblog/img/6.jpg" alt="">
+                                    </li>
+                                    <li>
+                                        <a href="#">xinyue</a>
+                                    </li>
+                                    <li>
+                                        <a>2021/12/26</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">520</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">250</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="rt">
+                            <a href=""><img src="../myblog/img/20.jpg" alt=""></a>
+                            <div class="fl">
+                                <div class="like">
+                                    <a href="#">点赞</a>
+                                </div>
+                                <div class="like">
+                                    <a href="#">收藏</a>
+                                </div>
+                                <div class="like last">
+                                    <a href="#">留言</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 右部分 -->
+            <div class="right">
+                <div class="cation">
+                    <div class="s">
+                        <span>分类</span>
+                        <a href="#">更多</a>
+                    </div>
+                    <div class="x">
+                        <span><a href="#">刀剑神域</a> <i>15</i></span>
+                        <span><a href="#">思考与感悟</a><i>19</i></span>
+                        <span><a href="#">画江湖</a><i>25</i></span>
+                        <span class="bor"><a href="#">蜡笔小新</a><i>5</i></span>
+                    </div>
+                </div>
+                <div class="label"></div>
+                <div class="code">
+                    <div>扫码关注我</div>
+                    <img src="../myblog/img/公众号.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- content end -->
+    <!-- footer底部start -->
+    <div class="footer">
+        <div class="bd">
+            <div class="tp">
+                <ul>
+                    <li>
+                        <img src="../myblog/img/公众号.jpg" alt="">
+                    </li>
+                    <li><img src="../myblog/img/giphy.gif" alt="">
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">
+                                <h2>联系我</h2>
+                            </a>
+                            <div class="wrap">
+
+                                <span>QQ邮箱 </span><a href="#">1579442122 @qq.com</a>
+
+                                <span>google邮箱 </span><a href="#"> lx1050407021 @gmail.com</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="com">
+                            <h2>搭建初衷</h2>
+                            <span>这里是心悦的blog，如果大家喜欢，可以将这里当作自己的“家”，分享大家的快乐!希望大家在这儿能够实现共同分享，共同进步</span>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="bm">
+                <span>Copyright.2021-2022 心悦 Designed</span>
+            </div>
+        </div>
+    </div>
+    <!-- footer底部end -->
+    <!-- 轮播 -->
+    <script src="../lunbo/swiper-7.4.1/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        // 轮播start
+        var mySwiper = new Swiper('.swiper', {
+            // direction: 'vertical', // 垂直切换选项
+            loop: true, // 循环模式选项
+            autoplay: {
+                disableOnInteraction: false,
+                delay: 2000
+            },
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            // 如果需要滚动条
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+        // 轮播 end
+        // 组织vue在启动时生成提示
+        Vue.config.productionTip = false;
+
+        // vue实列
+        const yue = new Vue({
+            // el: '.lf',
+            data() {
+                return {
+                    title: '大圣，此去为何123'
+                }
+
+            }
+        });
+        console.log(yue);
+        setTimeout(() => {
+            yue.$mount('.lf');
+        }, 1000);
+
+
+        // 时间
+        window.onload = function() {
+            var show = document.querySelector('.show');
+            setInterval(function() {
+                var time = new Date(); // 程序计时的月从0开始取值后+1   
+                var y = time.getFullYear();
+
+                var m = time.getMonth() + 1;
+
+                var d = time.getDate();
+
+                var h = time.getHours();
+
+                var min = time.getMinutes();
+
+                var s = time.getSeconds();
+
+                y = y < 10 ? '0' + y : y;
+                m = m < 10 ? '0' + m : m;
+                d = d < 10 ? '0' + d : d;
+                h = h < 10 ? '0' + h : h;
+                min = min < 10 ? '0' + min : min;
+                s = s < 10 ? '0' + s : s;
+                var t = `北京时间：` + y + `-` + m + `-` +
+                    d + ` ` + h + `:` +
+                    min + `:` + s;
+                show.innerHTML = t;
+
+            }, 1000)
+
+        };
+    </script>
+    <script src="../myblog/script/com.js"></script>
+</body>
+
+</html>

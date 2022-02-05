@@ -1,0 +1,476 @@
+.swiper {
+    margin: 30px 0;
+    width: 1100px;
+    height: 600px;
+}
+
+.swiper-scrollbar-drag {
+    background-color: #fff!important;
+}
+
+.swiper-pagination span {
+    background-color: #fff;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: white!important;
+}
+
+.swiper-wrapper {
+    border-radius: 10px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.recommend {
+    width: 840px;
+    height: 50px;
+    margin-bottom: 1.25rem;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1000;
+}
+
+.recommend span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.video {
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 1260px;
+    height: 100%;
+    z-index: 100;
+}
+
+.video ul {
+    display: flex;
+}
+
+.video ul :nth-child(4) {
+    margin-right: 0;
+}
+
+.video ul li {
+    margin-right: 40px;
+    width: 285px;
+    height: 190px;
+    list-style: none;
+    /* border: solid 2px black; */
+}
+
+.video ul li video {
+    width: 100%;
+}
+
+.blog {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 1200px;
+    margin-bottom: 20px;
+}
+
+.blog .left {
+    flex: 7;
+    /* margin-left: 50px; */
+    z-index: 100;
+}
+
+.blog .left div span {
+    display: inline-block;
+    width: 820px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.blog .right {
+    flex: 3;
+    opacity: 0.85;
+    margin-left: 40px;
+}
+
+.item .blog-item {
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px 5px 30px;
+}
+
+.left .item .blog-item {
+    margin-top: 10px;
+    width: 820px;
+    height: 190px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.blog-item .lf {
+    padding: 0 10px;
+    flex: 7;
+}
+
+.blog-item .lf h2 {
+    padding-bottom: 15px;
+    margin-left: -15px;
+}
+
+.blog-item .lf a {
+    font-size: 15px;
+    color: black;
+}
+
+.blog-item .rt {
+    flex: 3;
+}
+
+.right .cation {
+    margin-top: 10px;
+    width: 250px;
+    height: 240px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.right .cation .s {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: solid 2px teal;
+}
+
+.right .cation .s span::before {
+    font-family: 'icomoon';
+    content: '';
+    color: rgb(0, 255, 85);
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.right .cation .s span {
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.right .cation .s a {
+    float: right;
+    color: black;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.right .cation .s a::after {
+    font-family: 'icomoon';
+    content: '';
+    color: rgb(0, 255, 85);
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.right .cation .x {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 220px;
+    border: solid 2px #e0e1e1;
+    border-radius: 5px;
+}
+
+.cation .x span {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 18px;
+    border-bottom: solid 1px #e0e1e1;
+}
+
+.cation .x span:hover {
+    background-color: rgb(80, 214, 185);
+}
+
+.cation .x span a {
+    color: black;
+    font-size: 16px;
+}
+
+.cation .x span i {
+    margin-top: 8px;
+    margin-right: 20px;
+    display: block;
+    float: right;
+    width: 30px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+    border: solid 1px teal;
+    border-radius: 5px;
+}
+
+.right .cation .x .bor {
+    border: 0;
+}
+
+.right .code {
+    position: relative;
+    margin-top: 20px;
+    width: 250px;
+    height: 220px;
+    border-radius: 5px;
+    border-top: solid 2px teal;
+    border-bottom: solid 2px teal;
+    background-color: #fff;
+}
+
+.right .code>div {
+    position: absolute;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.right .code img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 45px;
+}
+
+.blog-item .rt img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.bt-like {
+    margin-left: -20px;
+    margin-top: 8px;
+    width: 280px;
+    height: 25px;
+}
+
+.lf .bt-like ul li a {
+    font-size: 14px;
+}
+
+.bt-like ul li {
+    list-style: none;
+    padding: 0 12px;
+}
+
+.lf .bt-like ul {
+    display: flex;
+}
+
+.bt-like ul:nth-child(1) img {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.bt-like ul :nth-child(2) a {
+    color: black;
+}
+
+.bt-like ul :nth-child(2) {
+    padding: 0;
+}
+
+.bt-like ul :nth-child(3) a::before {
+    font-family: 'icomoon';
+    content: '';
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding-right: 2px;
+}
+
+.bt-like ul :nth-child(4) a::before {
+    font-family: 'icomoon';
+    content: '';
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding-right: 2px;
+}
+
+.bt-like ul :nth-child(5) a::before {
+    font-family: 'icomoon';
+    content: '';
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding-right: 3px;
+}
+
+.bt-like ul :nth-child(3),
+.bt-like ul :nth-child(4),
+.bt-like ul :nth-child(5) {
+    padding-top: 2px;
+}
+
+.bt-like ul :nth-child(3) a {
+    color: black;
+}
+
+.like {
+    width: 55px;
+    height: 24px;
+    border: solid 1px teal;
+    margin-top: 7px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 26px;
+}
+
+.rt .last {
+    margin-right: 0;
+}
+
+.like a {
+    margin-left: 7px;
+    font-size: 14px;
+    color: teal;
+}
+
+.like:hover a {
+    color: rgb(246, 70, 0);
+}
+
+.like a::before {
+    font-family: 'icomoon';
+    content: '';
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+
+/* 650px 至1250px */
+
+@media (min-width:850px) and (max-width:1250px) {
+    .blog {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .video ul {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:651px) and (max-width:899px) {}
+
+
+/* iphoneX屏幕 */
+
+@media (min-width:300px) and (max-width:650px) {
+    .swiper {
+        margin-top: 15rem;
+        width: 320px;
+        height: 200px;
+    }
+    .recommend {
+        width: 240px;
+        height: 30px;
+        background-color: #fff;
+        text-align: center;
+        line-height: 30px;
+    }
+    .recommend span {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .video ul {
+        margin: 0;
+        padding: 0;
+        width: 375px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .video ul li {
+        width: 270px;
+        height: 180px;
+        list-style: none;
+    }
+    .video ul li video {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 300px;
+        border-radius: 10px;
+    }
+    .video {
+        box-sizing: border-box;
+        padding: 0;
+        height: 100%;
+    }
+    .blog {
+        flex-flow: column;
+        margin-bottom: 30px;
+        height: 100%;
+        width: 300px;
+    }
+    .left .item .blog-item {
+        width: 300px;
+        padding: 0;
+        height: 100%;
+        flex-flow: column-reverse;
+        flex-wrap: wrap;
+    }
+    .left .item {
+        margin-bottom: 15px;
+    }
+    .blog .left {
+        flex-flow: column;
+        flex-wrap: wrap;
+        flex: 0;
+        margin-left: 0px;
+    }
+    .bt-like ul li {
+        padding-right: 4px;
+    }
+    .blog-item .lf h2 {
+        margin-left: -4px;
+    }
+    .like {
+        width: 55px;
+        margin: 7px 20px;
+    }
+    .blog-item .rt img {
+        width: 100%;
+    }
+    .blog-item .rt a {
+        display: inline-block;
+        width: 200px;
+    }
+    .blog-item .rt {
+        display: flex;
+    }
+    .blog .right {
+        margin-left: 0;
+    }
+    .right .cation {
+        width: 300px;
+    }
+    .right .code {
+        width: 300px;
+    }
+    .rt .fl {
+        display: flex;
+        flex-flow: column;
+    }
+}
+
+@media (max-width:1380px) {}

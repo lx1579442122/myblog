@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?wrez6j');
+    src: url('../fonts/icomoon.eot?wrez6j#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?wrez6j') format('truetype'), url('../fonts/icomoon.woff?wrez6j') format('woff'), url('../fonts/icomoon.svg?wrez6j#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    background-image: url(../img/7.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.margin {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+
+/* 导航栏start */
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.logo img {
+    position: absolute;
+    left: 0;
+    width: 110px;
+    height: 110px;
+}
+
+.hd img {
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.header #nav {
+    /* position: relative; */
+    box-shadow: 0px 4px 8px rgb(238, 151, 101);
+    height: 530px;
+    width: 100%;
+    background-color: #030304;
+}
+
+.header #nav ul {
+    margin-top: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header #nav ul li {
+    width: 350px;
+    line-height: 40px;
+    height: 40px;
+    padding: 0px 10px;
+    list-style: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 3px 5px rgb(64, 231, 181);
+    transition: all 0.4s;
+    text-align: center;
+}
+
+.header #nav ul li a {
+    display: inline-block;
+}
+
+.header #nav ul li:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.header #nav ul li:hover a:hover {
+    transform: scale(1.15);
+}
+
+#nav ul li:nth-child(1)::before {
+    font-family: 'icomoon';
+    content: '';
+    color: tomato;
+}
+
+#nav ul li:nth-child(2)::before {
+    font-family: 'icomoon';
+    content: '';
+    color: tomato;
+}
+
+#nav ul li:nth-child(3)::before {
+    font-family: 'icomoon';
+    content: '';
+    color: tomato;
+}
+
+#nav ul li:nth-child(4)::before {
+    font-family: 'icomoon';
+    content: '';
+    color: tomato;
+}
+
+#nav ul li:nth-child(5)::before {
+    font-family: 'icomoon';
+    content: '';
+    color: tomato;
+}
+
+#nav ul li:nth-child(6)::before {
+    font-family: 'icomoon';
+    content: '';
+    color: tomato;
+}
+
+#nav ul li:nth-child(7)::before {
+    font-family: 'icomoon';
+    content: '';
+    color: tomato;
+}
+
+#nav ul li:nth-child(8)::before {
+    font-family: 'icomoon';
+    content: '';
+    color: tomato;
+}
