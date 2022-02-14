@@ -50,11 +50,11 @@ window.addEventListener('DOMContentLoaded', function() {
         function() {
             if (flag == 0) {
                 cos.type = 'text';
-                this.src = '../myblog/img/open.png';
+                this.src = 'img/open.png';
                 flag = 1;
             } else {
                 cos.type = 'password';
-                this.src = '../myblog/img/close.png';
+                this.src = 'img/close.png';
                 flag = 0;
             }
         });
@@ -64,11 +64,11 @@ window.addEventListener('DOMContentLoaded', function() {
         let = () => {
             if (flag == 0) {
                 bos.type = 'text';
-                this.src = '../myblog/img/open.png';
+                this.src = 'img/open.png';
                 flag = 1;
             } else {
                 bos.type = 'password';
-                this.src = '../myblog/img/close.png';
+                this.src = 'img/close.png';
                 flag = 0;
             }
         });
