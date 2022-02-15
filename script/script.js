@@ -60,62 +60,38 @@ window.addEventListener('DOMContentLoaded', function() {
         });
     var bos = document.querySelector('#pswt');
     let btn2 = document.querySelector('.bos').querySelector('img');
-    btn2.addEventListener('click',
-        let = () => {
-            if (flag == 0) {
-                bos.type = 'text';
-                this.src = 'img/open.png';
-                flag = 1;
-            } else {
-                bos.type = 'password';
-                this.src = 'img/close.png';
-                flag = 0;
-            }
-        });
-
-
-
+        btn2.addEventListener('click',
+            function() {
+                if (flag == 0) {
+                    bos.type = 'text';
+                    this.src = 'img/open.png';
+                    flag = 1;
+                } else {
+                    bos.type = 'password';
+                    this.src = 'img/close.png';
+                    flag = 0;
+                }
+            });
     //文本框placeholder获取焦点隐藏，失去焦点显示
     var inputs = document.getElementsByTagName('input');
-    addEventListener('click', (e) => {
-        for (var i = 0; i < inputs.length; i++) {
-            e.target.placeholder = '';
-        }
-
-    });
-    // for (var i = 0; i < inputs.length; i++) {
-    //     inputs[i].onfocus = (e) => {
-    //         e.target.placeholder = '';
-    //     }
-    // }
-
-
-
-    for (var i = 0; i < inputs.length; i++) {
-        inputs[i].onblur = (e) => {
-            e.target.placeholder = '请输入6位以上';
-        }
+        addEventListener('click', (e) => {
+            for (var i = 0; i < inputs.length; i++) {
+                e.target.placeholder = '';
+            }
+        });
+    inputs[0].onblur = (e) => {
+        e.target.placeholder = '请输入邮箱';
     }
-
-    // 表单校验提醒error，有问题
-
-    // function check() {
-    //     let name = document.myform.txtUser;
-    //     if (name.value.length == 0) {
-    //         console.log('嘿嘿');
-    //     } else {
-    //         if (name.value.inCludes('@')) {
-    //             name.innerHTML = '请输入邮箱';
-    //         }
-    //     }
-    // }
-    // check();
-
+    inputs[1].onblur = (e) => {
+        e.target.placeholder = '请输入密码';
+    }
+    inputs[2].onblur = (e) => {
+        e.target.placeholder = '请输入邮箱';
+    }
+    inputs[3].onblur = (e) => {
+        e.target.placeholder = '请输入密码 6-16位';
+    }
 });
-
-
-
-
 
 
 // Ajax 请求发送
